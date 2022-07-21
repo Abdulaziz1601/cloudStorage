@@ -1,0 +1,55 @@
+@import '../base/variables';
+
+.btn {
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    transition: .4s;
+
+    &--mini {
+        width: 100px;
+        height: 40px;
+    }
+
+    &--big {
+        width: 160px;
+        height: 50px;
+    }
+
+    &--transparent {
+        border: 1px solid #FFFFFF;
+        background: transparent;
+        color: #FFFFFF;
+
+        &:hover {
+            background: #fff;
+            color: $main-color;
+        }
+    }
+
+    &--white {
+        background: #FFFFFF;
+        color: $main-color;
+        border: 1px solid transparent;
+
+        &:hover {
+            background: transparent;
+            color: #FFFFFF;
+            border: 1px solid #FFFFFF;
+        }
+    }
+
+    &--pink {
+        background: $main-color;
+        border: 1.5px solid $main-color;
+        color: #FFFFFF;
+
+        &:hover {
+            background-color: #42378f;
+            background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
+        }
+    }
+}

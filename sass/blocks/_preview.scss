@@ -1,0 +1,27 @@
+@import '../base/variables';
+
+.preview {
+    padding: 94px 0;
+    background: $main-color;
+    &__inner-wrapper {
+        display: flex;
+        align-items: center;
+    }      
+    &__wrapper {
+        width: 445px;
+    }
+    &__descr {
+        margin-top: 24px;
+    }
+    &__img {
+        margin-left: 125px;
+    }
+    &__socials {
+        margin-top: 40px;
+        &-item {
+            &:first-child {
+                margin-right: 23px;
+            }
+        }
+    }
+}
